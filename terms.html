@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/logo-main.png" type="image/x-icon">
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:400,500,600%7CTeko:300,400,500%7CMaven+Pro:500">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -36,8 +36,8 @@
                     <!-- RD Navbar Toggle-->
                     <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                     <!-- RD Navbar Brand-->
-                    <div class="rd-navbar-brand"><a class="brand" style="font-size: 34px; font-weight: 700;" href="index.html">WebTech Solution</a></div>
-                  </div>
+                    <div class="rd-navbar-brand"><a class="brand" href="index.html" style="display: flex; align-items: center; gap: 5px; " >
+                        <img src="images/logo-main.png" style="width: 100px;" /><p style="font-size: 34px; font-weight: 700;">WebTech Solution</p></a></div>
                   <div class="rd-navbar-main-element">
                     <div class="rd-navbar-nav-wrap">
                       <!-- RD Navbar Share-->
@@ -50,7 +50,7 @@
                         </ul>
                       </div>
                       <ul class="rd-navbar-nav">
-                        <li class="rd-nav-item active"><a class="rd-nav-link" href="#home">Home</a></li>
+                        <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a></li>
                         <li class="rd-nav-item"><a class="rd-nav-link" href="#services">Services</a></li>
                         <li class="rd-nav-item"><a class="rd-nav-link" href="#projects">Projects</a></li>
                         <li class="rd-nav-item"><a class="rd-nav-link" href="#team">Team</a></li>
@@ -138,14 +138,32 @@
       <footer class="section section-fluid footer-minimal context-dark">
         <div class="bg-gray-15">
           <div class="container-fluid">
-            <div class="footer-minimal-inset oh">
-              <ul class="footer-list-category-2">
-                <li><a href="terms.html">Terms & Conditions</a></li>
-                <li><a href="privacypolicy.html">Privacy Policy</a></li>
-                <li><a href="refundpolicy.html">Refund Policy</a></li>
-                <li><a href="disclaimer.html">Disclaimer</a></li>
-                <li><a href="#">Customer Support</a></li>
-              </ul>
+            <div class="footer-minimal-inset oh" style="display: grid; grid-template-columns: repeat(3,1fr); " >
+              <div>
+                <img src="images/logo.png" style="width: 200px;" />
+              </div>
+              <div class="" style="display: flex; flex-direction: column; gap: 5px;" >
+                <a href="terms.html">Terms & Conditions</a>
+                <a href="privacypolicy.html">Privacy Policy</a>
+                <a href="refundpolicy.html">Refund Policy</a>
+                <a href="disclaimer.html">Disclaimer</a>
+                <a href="#">Customer Support</a>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 5px;" >
+                <a href="index.html">Home</a>
+                <a href="">Services</a>
+                <a href="">Projects</a>
+                <a href="">Team</a>
+                <a href="">News</a>
+                <a href="">Contact Us</a>
+              </div>
+            </div>
+            <div style=" width: 60%; margin: 0 auto; display: flex; flex-direction: column; gap: 5px; margin-bottom: 50px; " >
+              <p style="color: white;font-size: 24px; font-weight: 700;" >Newsletter</p>
+              <p style="text-align: justify;" >Check out WebTech Solution digital solutions that will elevate your business! Our offerings
+                include advanced digital marketing, SEO-friendly web development, creative graphic design,
+                and innovative mobile app development. We boost your business's online presence and sales,
+                our strategies are increased growth. Contact us to start transforming your business today!</p>
             </div>
             <div class="footer-minimal-bottom-panel text-sm-left">
               <div class="row row-10 align-items-md-center">
